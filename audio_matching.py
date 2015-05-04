@@ -129,7 +129,7 @@ def play():
         pass
 
 def match():
-    print "\nYou chose match.\n"
+    print "\nYou chose match."
     try:
         index_choice = int(raw_input("Please choose an audio file from the library to match: "))
         signal, fs, enc = audiolab.wavread(AUDIO_PATH + audio_files[index_choice])
@@ -150,7 +150,7 @@ def match():
         pyplot.show()
 
     except:
-        raise
+        pass
 
 # Define the menu options.
 menu_option = { 1: record,
