@@ -11,4 +11,4 @@ Required modules/libraries:
 ![screenshot](./images/screenshot.png)
 
 ##Current status
-At this point recording, playback, and audio signature creation are working. However, the parameters for finding local maxima signature points could use some tuning.
+At this point recording, playback, and audio signature creation are working. However, the parameters for finding local maxima in the signature creation step could use some tuning. Matching of signatures is not yet implemented.
