@@ -12,3 +12,6 @@ Required modules/libraries:
 
 ##Current status
 At this point recording, playback, and audio signature creation are working. However, the parameters for finding local maxima in the signature creation step could use some tuning. Matching of signatures is not yet implemented.
+
+Here the tones are more pure, and each note can be seen as a horizontal line. The length of each line indicates the length of time that the note is held.
+![close encounters](./images/close-encounters.png "Close Encounters of the Third Kind")
