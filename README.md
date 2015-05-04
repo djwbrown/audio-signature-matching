@@ -7,3 +7,8 @@ Required modules/libraries:
 - PyAudio (https://people.csail.mit.edu/hubert/pyaudio/)
 - Audiolab (http://cournape.github.io/audiolab/)
 - NumPy, SciPy, and Matplotlib (http://scipy.org)
+
+![screenshot](./images/screenshot.png)
+
+##Current status
+At this point recording, playback, and audio signature creation are working. However, the parameters for finding local maxima signature points could use some tuning.
