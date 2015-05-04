@@ -7,8 +7,6 @@ import matplotlib.pyplot as pyplot
 from scipy.ndimage.filters import maximum_filter
 from scipy.ndimage.morphology import generate_binary_structure, iterate_structure, binary_erosion
 
-from time import sleep # DEBUG
-
 # Audio stream settings.
 AUDIO_PATH = './audio_files/'
 FORMAT = pyaudio.paInt16
